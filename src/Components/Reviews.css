@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+.grid {
+    display: grid;
+    grid-template-columns: auto, 45%;
+    grid-template-rows: 70px minmax(160px, auto) auto;
+    grid-template-areas: 
+      'header header'
+      'main rightbar'
+      'footer footer';
+    column-gap: 20px;
+    row-gap: 90px;
+    background-image: url('../resources/Background8.jpg');
+    background-position: auto;
+    background-repeat: no repeat;
+    background-size:cover;
+    background-attachment:scroll;
+    width: 100vw;
+    height: 100vh;
+}
+  
+.reviews-background{
+  background-image: url('../resources/Background8.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment:scroll;
+  width: auto;
+  height: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  display: flex;
+  /* align-items: space-evenly;
+  justify-content: center;
+  text-align: center; */
+  flex-direction: column;
+    
+  }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.reviews-text{
+ font-family: 'Playfair Display', 'serif';
+ padding-top: 20px;
+}
+
+.small-text{
+  font-family: Abril Fatface;
+  font-size: 20px;;
+}

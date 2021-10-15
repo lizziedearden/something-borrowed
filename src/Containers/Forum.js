@@ -1,7 +1,7 @@
 import React from 'react'
 import axios from 'axios';
-import ForumPostList from '../Components/ForumPostList';
-import AddForumPost from '../Components/AddForumPost';
+import ForumPostList from '../components/ForumPostList';
+import AddForumPost from '../components/AddForumPost';
 
 
 class Forum extends React.Component{

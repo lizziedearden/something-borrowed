@@ -1,0 +1,38 @@
+.comment-submit{
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #f5dcc8;
+    color: #923528;
+    width:auto;
+    margin: 1rem;
+    height:60%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: #923528;
+    border-radius: 5px;
+}
+
+.comment-submit:hover {
+    background-color: #d3705fe8;
+    color: #fff;
+  }
+
+.comment-input[type=text] {
+    padding:10px;
+    margin:10px;
+    font-family: Abril Fatface;
+    border-radius:10px;
+    background-color: rgb(216, 125, 97);
+}
+
+.comment-input[type=text]:focus {
+    padding:10px;
+    margin:10px;
+    font-family: Abril Fatface;
+    border-radius:10px;
+    background-color: rgb(216, 125, 97);
+    border-color: #000;
+}

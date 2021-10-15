@@ -1,0 +1,36 @@
+div.content {
+    position: relative;
+    top: 5%;
+}
+ 
+.banner-content {
+    background-color: rgb(216, 125, 97);
+    /* background-image: url("../Resources/StarrySky.jpeg"); */
+    padding-top: 100px;
+    padding-bottom: 4px;
+    box-shadow: 0 4px 8px 0 rgba(253, 250, 250, 0.986), 0 6px 20px 0 rgba(247, 247, 247, 0.719);
+    text-align: center;
+    color: whitesmoke;
+}
+ 
+.title {
+    font-size: 50px;
+    color:whitesmoke;
+}
+
+/* .bgcolour{
+    background-image: url("../Resources/StarrySky.jpeg");
+} */
+ 
+.text {
+    font-size: 150%;
+    padding-bottom: 15px;
+}
+ 
+.btn-outline-dark {
+    margin-top: 1.5rem;
+}
+
+.banner-text{
+font-family: Abril Fatface;
+}

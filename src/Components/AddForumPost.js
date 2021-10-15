@@ -27,7 +27,7 @@ class AddForumPost extends React.Component {
 
       console.log(post);
   
-      axios.post(`http://localhost:8081/somethingBorrowed/forum`, post)
+      axios.post(`http://localhost:8080/somethingBorrowed/forum`, post)
         .then(() => {
           this.setState ({
             userId: '',

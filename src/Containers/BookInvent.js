@@ -1,7 +1,9 @@
 import React from 'react'
-import BookInventory from '../Components/BookInventory';
+import BookInventory from '../components/BookInventory';
 import axios from 'axios';
-import GenreList from '../Components/GenreList';
+import GenreList from '../components/GenreList';
+import Banner from '../components/Banner';
+import Footer from '../components/Footer';
 
 
 class BookInvent extends React.Component{
@@ -51,9 +53,15 @@ class BookInvent extends React.Component{
   render() {
       return (
           <div>
+            <Banner />
             <BookInventory books={this.state.books}/>
-            <GenreList genreBooks={this.state.horrorBooks} />
-            <GenreList genreBooks={this.state.classicBooks} />
+
+            <div className = "footer">
+                  <Footer/>
+              </div>
+
+            {/* <GenreList genreBooks={this.state.horrorBooks} />
+            <GenreList genreBooks={this.state.classicBooks} /> */}
           </div>
       )
   }
